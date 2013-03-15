@@ -1,4 +1,4 @@
-brentburgoyne.githug.com
+brentburgoyne.github.com
 ========================
 
 Brent Burgoyne
