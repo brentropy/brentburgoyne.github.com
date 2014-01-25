@@ -1,0 +1,22 @@
+@import 'normalize';
+@import 'bourbon/bourbon';
+@import 'bitters/bitters';
+@import 'neat/neat';
+
+/* Begin Site Styles */
+body {
+  @include outer-container;
+}
+
+.left, .right {
+  @include span-columns(6);
+  height: 500px;
+  padding: 20px;
+  @include linear-gradient(#ddd, #fff);
+}
+
+h1, h2 {
+  @include linear-gradient(#fff, #ddd);
+  padding: 20px;
+}
+
