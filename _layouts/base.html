@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>
+      {% if page.page_title %}
+        {{page.page_title}} -
+      {% endif %}
+      {{site.site_title}}
+    </title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1">
+    <meta name="description" content="{{page.meta_description}}">
+
+    {% for og in page.open_graph %}
+      <meta name="og:{{og[0]}}" content="{{og[1]}}">
+    {% endfor %}
+
+    {% unless page.open_graph.site_name %}
+      <meta name="og:site_name" content="{{site.site_title}}">
+    {% endunless %}
+
+    {% unless page.open_graph.title %}
+      <meta name="og:title" content="{{page.page_title}}">
+    {% endunless %}
+
+    {% unless page_open_graph.description %}
+      <meta name="og:description" content="{{page.meta_description}}">
+    {% endunless %}
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{site.twitter_handle}}">
+
+    <link rel="stylesheet" href="/css/site.css">
+
+  </head>
+  <body>
+
+    {{content}}
+
+  </body>
+</html>

@@ -1,0 +1,6 @@
+twitter_handle: brentbug
+site_title: Brent Burgoyne
+safe: true
+exclude: [Gemfile, Gemfile.lock, Rakefile, README.md, .sass-cache]
+timezone: America/Denver
+future: false

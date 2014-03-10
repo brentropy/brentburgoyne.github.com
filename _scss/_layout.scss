@@ -1,0 +1,72 @@
+html {
+  background-color: $gray;
+}
+
+p {
+  font-size: em(16);
+}
+
+body {
+  font-family: $body-font-family;
+  line-height: 1.4;
+  color: #555;
+}
+
+.card {
+  background-color: $white;
+  border: 0 solid $orange;
+  border-width: em(1) 0;
+  margin-top: 40px;
+  .container {
+    margin: 0 auto;
+    border-top: em(9) solid $orange-lighter;
+    width: em(700);
+    padding: em(50);
+    text-align: center;
+  }
+  img {
+    margin-bottom: em(10);
+    width: em(100);
+    height: em(100);
+  }
+  h1 {
+    font-size: em(32);
+    color: $orange;
+  }
+  h2 {
+    font-size: em(18);
+    font-style: italic;
+    color: $blue;
+    margin-bottom: em(20, 18);
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+  p {
+    padding: 0 em(40);
+    margin-bottom: em(30, 18);
+    text-align: justify;
+  }
+  .social {
+    border-top: em(1) solid $gray;
+    padding: em(30) 0 0;
+    margin: 0 em(40);
+    a {
+      font-size: em(26);
+      color: $blue-lighter;
+      background-color: $gray;
+      width: em(30);
+      height: em(30);
+      padding-top: em(4);
+      border-radius: 100%;
+      display: inline-block;
+      text-align: center;
+      margin: 0 em(5);
+      transition: all 0.5s;
+      &:hover {
+        color: $white;
+        background-color: $orange;
+
+      }
+    }
+  }
+}
