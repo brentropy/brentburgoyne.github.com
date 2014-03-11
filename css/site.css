@@ -999,12 +999,12 @@ p { font-size: 1em; }
 
 body { font-family: sans-serif; line-height: 1.4; color: #555; }
 
-.card { background-color: white; border: 0 solid #dc312f; border-width: 0.0625em 0; margin-top: 40px; }
-.card .container { margin: 0 auto; border-top: 0.5625em solid #e77270; width: 43.75em; padding: 3.125em; text-align: center; }
+.card { background-color: white; border: 0 solid #dc312f; border-width: 0.0625em 0; margin-top: 40px; padding: 0 0.625em; }
+.card .container { margin: 0 auto; border-top: 0.5625em solid #e77270; max-width: 43.75em; width: 100%; padding: 3.125em 0; text-align: center; }
 .card img { margin-bottom: 0.625em; width: 6.25em; height: 6.25em; }
 .card h1 { font-size: 2em; color: #dc312f; }
 .card h2 { font-size: 1.125em; font-style: italic; color: #063341; margin-bottom: 1.11111em; text-transform: lowercase; font-weight: 400; }
-.card p { padding: 0 2.5em; margin-bottom: 1.66667em; text-align: justify; }
-.card .social { border-top: 0.0625em solid #d7d7d7; padding: 1.875em 0 0; margin: 0 2.5em; }
+.card p { padding: 0 15%; margin-bottom: 1.66667em; text-align: justify; }
+.card .social { border-top: 0.0625em solid #d7d7d7; padding: 1.875em 0 0; margin: 0 15%; }
 .card .social a { font-size: 1.625em; color: #0a5870; background-color: #d7d7d7; width: 1.875em; height: 1.875em; padding-top: 0.25em; border-radius: 100%; display: inline-block; text-align: center; margin: 0 0.3125em; transition: all 0.5s; }
 .card .social a:hover { color: white; background-color: #dc312f; }

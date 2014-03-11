@@ -17,11 +17,13 @@ body {
   border: 0 solid $orange;
   border-width: em(1) 0;
   margin-top: 40px;
+  padding: 0 em(10);
   .container {
     margin: 0 auto;
     border-top: em(9) solid $orange-lighter;
-    width: em(700);
-    padding: em(50);
+    max-width: em(700);
+    width: 100%;
+    padding: em(50) 0;
     text-align: center;
   }
   img {
@@ -42,14 +44,14 @@ body {
     font-weight: 400;
   }
   p {
-    padding: 0 em(40);
+    padding: 0 15%;
     margin-bottom: em(30, 18);
     text-align: justify;
   }
   .social {
     border-top: em(1) solid $gray;
     padding: em(30) 0 0;
-    margin: 0 em(40);
+    margin: 0 15%;
     a {
       font-size: em(26);
       color: $blue-lighter;
