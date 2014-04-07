@@ -63,7 +63,7 @@ body {
       display: inline-block;
       text-align: center;
       margin: 0 em(5);
-      transition: all 0.5s;
+      transition: background-color 0.7s;
       &:hover {
         color: $white;
         background-color: $orange;
