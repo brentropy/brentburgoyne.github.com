@@ -1005,6 +1005,6 @@ body { font-family: sans-serif; line-height: 1.4; color: #555; }
 .card h1 { font-size: 2em; color: #dc312f; }
 .card h2 { font-size: 1.125em; font-style: italic; color: #063341; margin-bottom: 1.11111em; text-transform: lowercase; font-weight: 400; }
 .card p { padding: 0 11%; margin-bottom: 1.66667em; text-align: justify; }
-.card .social { border-top: 0.0625em solid #d7d7d7; padding: 1.875em 0 0; margin: 0 11%; }
+.card .social { border-top: 0.0625em dotted #d7d7d7; padding: 1.875em 0 0; margin: 0 11%; }
 .card .social a { font-size: 1.625em; color: #0a5870; background-color: #d7d7d7; width: 1.875em; height: 1.875em; padding-top: 0.25em; border-radius: 100%; display: inline-block; text-align: center; margin: 0 0.3125em; transition: all 0.5s; }
 .card .social a:hover { color: white; background-color: #dc312f; }
